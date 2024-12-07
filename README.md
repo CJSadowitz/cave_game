@@ -6,6 +6,7 @@ This game is inspired from the destructability and experience minecraft provides
 *Using terminal or powershell* </br>
 Simply clone this repository: `git clone http://` </br>
 **Vulkan Related Installation** </br>
+Navigate to installation directory: `cd installation/` </br>
 `bash vulkan_installation.sh` </br>
 `bash glfw_installation.sh` </br>
 
