@@ -13,13 +13,13 @@ Navigate to installation directory: `cd installation/` </br>
 ## Building
 *Using terminal or powershell* </br>
 Should be simple @Colin </br>
-Run CMake: `cmake` </br>
-Navigate to build directory: `cd build/` </br>
+Navigate to the build directory: `cd build/` </br>
+Run CMake: `cmake ..` </br>
 Build Game: `make` </br>
 
 ## Running
 *Using terminal or powershell* </br>
-Run: `./game` </br>
+Run: `./cave_game` </br>
 **FIND WHAT THIS LOOKS LIKE FOR WINDOWS** </br>
 
 ## What it is
