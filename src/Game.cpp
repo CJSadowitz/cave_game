@@ -1,4 +1,5 @@
 #include "Game.h"
+#include "Chunk.h"
 
 void Game::run()
 {
@@ -28,6 +29,8 @@ void Game::init_vulkan()
 
 void Game::main_loop(GLFWwindow* window)
 {
+	chunk my_chunk = make_random_chunk();
+
 	while (!glfwWindowShouldClose(window))
 	{
 		glfwPollEvents();

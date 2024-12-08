@@ -14,7 +14,7 @@ find_package(glfw3 REQUIRED)
 find_package(Vulkan REQUIRED)
 
 # Add the executable
-add_executable(cave_game src/main.cpp src/Game.cpp)
+add_executable(cave_game src/main.cpp src/Game.cpp src/Chunk.cpp)
 target_link_libraries(cave_game glfw Vulkan::Vulkan)
 
 # To add other source files:
