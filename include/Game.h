@@ -14,6 +14,10 @@ private:
 	void init_vulkan();
 	void main_loop(GLFWwindow* window);
 	void clean_up(GLFWwindow* window);
+
+	VkInstance instance;
+	void create_instance();
+	void pick_physical_device();
 };
 
 #endif

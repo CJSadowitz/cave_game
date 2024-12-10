@@ -29,6 +29,7 @@ chunk make_random_chunk()
 			{
 				// Assign properties for each voxel
 				new_chunk.parts[voxel_index].pos = vec3_int8(x_len, y_len, z_len);
+				// Iterate
 				voxel_index++;
 				z_len++;
 			}
